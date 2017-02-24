@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+.button-close {
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+    float: right;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.button-wrapper {
+    padding: 0.1em 0;
+}
+
+.header {
+    color: #ACB109;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 7em;
+    font-weight: bold;
+    margin-right: 2em;
+}
+
+.header-img {
+    float: right;
+}
+
+.header-wrapper {
+    margin: 2em 0;
+}
+
+.modal {
+    background: rgba(0, 56, 101, 0.50);
+    bottom: 25%;
+    border: 1px solid rgba(204, 204, 204, 0.50);
+    color: #FFF;
+    height: 41em;
+    left: 25%;
+    overflow: auto;
+    outline: none;
+    padding: 1.5em;
+    position: absolute;
+    right: 25%;
+    top: 5%;
+    width: 40em;
+}
+
+.modal-overlay {
+    background-color: rgba(34, 34, 34, 0.70);
+    bottom: 0em;
+    left: 0em;
+    position: fixed;
+    right: 0em;
+    top: 0em;
+}
+
+.title {
+    color: #ACB109;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.text {
+    color: #FFF;
+    font-size: 1em;
+    -webkit-margin-before: -1em;
+}

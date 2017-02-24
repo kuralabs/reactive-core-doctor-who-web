@@ -12,13 +12,14 @@ ul {
 li {
     color: #ACB109;
     float: left;
+    font-size: 1.2em;
     opacity: 0.7;
-    margin: 10px;
-    width: 210px;
+    margin: 0.5em;
+    width: 10em;
 }
 
 img {
-   width: 200px;
+   width: 10em;
 }
 
 li:hover {
