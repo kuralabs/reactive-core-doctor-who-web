@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+body {
+    background-color: #222222;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    color: #ACB109;
+    float: left;
+    opacity: 0.7;
+    margin: 10px;
+    width: 210px;
+}
+
+img {
+   width: 200px;
+}
+
+li:hover {
+    opacity: 1;
+}
