@@ -5,7 +5,7 @@ import './styles/doctor.css'
 const DoctorRow = ({ closeModal, doctor }) => (
     <div>
         <div className="button-wrapper">
-            <button onClick={closeModal} className="button-close">
+            <button onClick={closeModal} className="button-right">
                 X
             </button>
         </div>

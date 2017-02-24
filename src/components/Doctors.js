@@ -9,6 +9,15 @@ import './styles/doctor.css';
 
 const Doctors = ({ doctors, showDoctor, doctor, orderByName, orderByNumber, selectDoctor, showDoctorslist }) => (
     <div className="container">
+        <div className="toolbar">
+            <button onClick={orderByName} className="button-right">
+                Sort by name
+            </button>
+
+            <button onClick={orderByNumber} className="button-right">
+                Sort by number
+            </button>
+        </div>
         <ul>
             {doctors.map(d =>
                 <DoctorRow

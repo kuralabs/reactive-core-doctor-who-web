@@ -25,3 +25,9 @@ img {
 li:hover {
     opacity: 1;
 }
+
+.toolbar {
+    color: #FFF;
+    font-size: 1em;
+    height: 2em;
+}
