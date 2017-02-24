@@ -26,6 +26,10 @@ li:hover {
     opacity: 1;
 }
 
+.button {
+    margin: 0.2em;
+}
+
 .toolbar {
     color: #FFF;
     font-size: 1em;

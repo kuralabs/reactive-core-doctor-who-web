@@ -6,7 +6,7 @@ const DoctorRow = ({ closeModal, doctor }) => (
     <div>
         <div className="button-wrapper">
             <button onClick={closeModal} className="button-right">
-                X
+                <i className="fa fa-close"></i>
             </button>
         </div>
 

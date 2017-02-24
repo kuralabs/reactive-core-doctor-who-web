@@ -10,12 +10,12 @@ import './styles/doctor.css';
 const Doctors = ({ doctors, showDoctor, doctor, orderByName, orderByNumber, selectDoctor, showDoctorslist }) => (
     <div className="container">
         <div className="toolbar">
-            <button onClick={orderByName} className="button-right">
-                Sort by name
+            <button onClick={orderByName} className="button button-right">
+                Sort by name <i className="fa fa-sort-alpha-asc"></i>
             </button>
 
-            <button onClick={orderByNumber} className="button-right">
-                Sort by number
+            <button onClick={orderByNumber} className="button button-right">
+                Sort by number <i className="fa fa-sort-numeric-asc"></i>
             </button>
         </div>
         <ul>
