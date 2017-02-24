@@ -1,9 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
+import React from 'react'
+import { render } from 'react-dom'
+import { Provider } from 'react-redux'
+import { createStore } from 'redux'
+import doctorsApp from './core-module/reducers'
+import DoctorsList from './containers/DoctorsList'
 
-ReactDOM.render(
-  <App />,
-  document.getElementById('root')
-);
+let store = createStore(doctorsApp)
+
+render(
+    <Provider store={store}>
+        <DoctorsList/>
+    </Provider>,
+    document.getElementById('root')
+)
