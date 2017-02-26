@@ -29,6 +29,9 @@ This architecture is composed by three modules:
 3. **The web application:** Implemented using the React framework. This application is in the repository you are seeing right now.
 
 
+.. image:: docs/images/reactive-core-demo-img.jpg
+
+
 Build and run
 =============
 
